@@ -1,0 +1,124 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "News Cycle", sans-serif;
+  line-height: 2;
+  margin: 0;
+  padding: 0;
+  background-image: url("fondo-textura.svg");
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-position: center;
+  color: #333;
+}
+
+/* HEADER */
+header {
+  width: 100%;
+}
+
+.imagen-header {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  background-image: url("https://static01.nyt.com/images/2024/11/03/espanol/03spain-volunteers-01-pfwc-ES-copy1/03spain-volunteers-01-pfwc-superJumbo.jpg?quality=75&auto=webp");
+  background-size: cover;
+  background-position: 70% 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.imagen-header h1 {
+  color: #f1ebdf;
+  font-family: "Merriweather", serif;
+  font-size: 2.5em;
+  font-weight: 700;
+  line-height: 1.3;
+  text-align: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  margin: 0;
+  padding: 0 20px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* FÓRMULA */
+
+.formula {
+  font-size: 1.3em;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+  margin: 20px 0;
+  padding-top: 100px;
+}
+
+/* NOTICIA */
+
+section {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.contenido {
+  text-align: justify;
+  font-size: 1.3em;
+  color: #333;
+  line-height: 2;
+}
+
+.contenido p {
+  margin-bottom: 20px;
+}
+
+/* AUTORES Y FECHA */
+
+.detalles {
+  text-align: left;
+  font-size: 0.9em;
+  color: #555;
+  margin: 20px auto;
+  max-width: 800px;
+}
+
+.detalles p {
+  margin: 5px 0;
+}
+
+.separador {
+  border: none;
+  border-top: 1px solid #ccc;
+  margin: 20px 0;
+}
+
+/* ENLACES */
+
+.enlaces {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+  border-top: 1px solid #ddd;
+  padding-top: 15px;
+}
+
+.enlace-fuente,
+.enlace-volver,
+.enlace-correo {
+  color: #550101;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 8px;
+  border-radius: 3px;
+  transition: color 0.3s ease;
+}
+
+.enlace-fuente:hover,
+.enlace-volver:hover,
+.enlace-correo:hover {
+  color: #550101;
+}
